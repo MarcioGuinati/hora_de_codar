@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1, h2, h3, h4 {
+    width: 150px;
+    border-radius: 1px solid green;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: blueviolet;
+}
+h2 {
+    color: aqua;
+}
+h3 {
+    color: gold;
+}
+h4 {
+    color: yellowgreen;
+}
