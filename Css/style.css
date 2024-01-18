@@ -20,3 +20,15 @@ tr th {
     background-color: black;
     color: bisque;
 }
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+}
+.bg-image {
+    background-position: center;
+    background-size: cover; /* Conseguir ver a imagem toda */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/t2/4551586-abstract-colorful-soft-light-gradient-for-background-and-walpaper-foto.jpg);
+}
