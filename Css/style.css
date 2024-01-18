@@ -32,3 +32,31 @@ tr th {
     background-repeat: no-repeat;
     background-image: url(https://static.vecteezy.com/ti/fotos-gratis/t2/4551586-abstract-colorful-soft-light-gradient-for-background-and-walpaper-foto.jpg);
 }
+#quadrado {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    padding: 20px 15px 20px 10px; /*top right bottom e left */
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box; /* Respeita o tamanho */
+}
+
+.border {
+    text-align: center;
+    font-size: 20px;
+    border: 5px solid #836FFF;
+    padding: 10px;
+}
+.border-left {
+    margin: 50px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    border-left: 5px solid #836FFF;
+}
