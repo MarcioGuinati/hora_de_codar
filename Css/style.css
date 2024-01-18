@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D1EEEE;
+}
+
+#rgb {
+    color: rgb(255, 120, 0);
+}
+
+#rgba {
+    color: rgba(250, 1, 0, 255)
+}
+table {
+    background-color: aqua;
+}
+
+tr th {
+    opacity: 0.5;
+    background-color: black;
+    color: bisque;
+}
