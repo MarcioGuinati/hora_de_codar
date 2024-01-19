@@ -99,3 +99,78 @@ tr th {
     display: block;
     display: none; /* Desativa elemento da tela */
 }
+.static {
+    position: static;
+    background-color: rgb(243, 2, 135);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+.relative {
+    position: relative;
+    background-color: rgb(97, 224, 23);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+.absolute {
+    position: absolute;
+    background-color: rgb(5, 216, 253);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    left: 2px;
+}
+.fixed {
+    position: fixed;
+    background-color: rgb(30, 5, 253);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #836FFF;
+    top: 50px;
+    right: 100px;
+}
+.sticky {
+    position: sticky;
+    background-color: rgb(248, 0, 0);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+}
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1, 
+.absolute-2,
+.absolute-3 {
+    width: 50px;
+    height: 50px;
+    background-color: #d6d329;
+    position: absolute;
+}
+.absolute-1 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.absolute-2 {
+    top: 20px;
+    left: 20px;
+    background-color: #3668;
+    z-index: 2;
+}
+.absolute-3 {
+    top: 40px;
+    left: 40px;
+    background-color: #8775;
+    z-index: 1; /* Ele organiza qual irá ficar primeiro */
+}
