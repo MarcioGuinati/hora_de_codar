@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../Css/form.css">
+</head>
+<body>
+    <form class="container">
+        <h2>Formulário HTML</h2>
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="age">Idade: </label> <!-- for identifica semanticamente o que é, ideal ser sempre igual ao atributo name -->
+            <input type="text" name="age"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="estado">Selecione o seu estado: </label> <!-- for identifica semanticamente o que é, ideal ser sempre igual ao atributo name -->
+            <select name="estado">
+                <option selected value="selecione">Selecione</option> <!-- selected já vem selecionado -->
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="mg">MG</option>
+            </select>
+        </div>
+        <div>
+            <label for="items">Selecione os itens desejados: </label> <!-- for identifica semanticamente o que é, ideal ser sempre igual ao atributo name -->
+            <select name="items" multiple> <!-- permite selecionar vários itens -->
+                <option selected value="selecione">Selecione</option> <!-- selected já vem selecionado -->
+                <option value="pera">Pera</option>
+                <option value="feijao">Feijão</option>
+                <option value="arroz">Arroz</option>
+            </select>
+        </div>
+        <div>
+            <label for="texto">Digite seu texto</label>
+            <textarea name="comentario" id="comentario" cols="60" rows="10"></textarea>
+        </div>
+        <div>
+            <fieldset> <!-- serve para criar grupos de conteúdos que são ligados uns aos outros -->
+                <legend>Preencha suas informações: </legend>
+                <label for="firstname">Nome: </label>
+                <input type="text" name="firstname">
+
+                <label for="lastname">Sobrenome: </label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>
+        <div>
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+</body>
+</html>
