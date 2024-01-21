@@ -18,7 +18,26 @@ h2 {
     text-align: center;
 }
 
-div, input, textarea, select {
+div, textarea, select {
     margin-bottom: 20px;
     display: block;
+}
+#enviar, #reset {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+#enviar:hover, #reset:hover {
+    opacity: 0.5;
+}
+#enviar {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+}
+#reset {
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
 }

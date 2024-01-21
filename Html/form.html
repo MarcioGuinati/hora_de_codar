@@ -11,11 +11,35 @@
         <h2>Formulário HTML</h2>
         <div>
             <label for="nome">Nome: </label>
-            <input type="text" name="nome"/> <!-- atributo name, o que vai para o backend -->
+            <input required type="text" name="nome"/> <!-- atributo name, o que vai para o backend -->
         </div>
         <div>
             <label for="sobrenome">Sobrenome: </label>
-            <input type="text" name="sobrenome"/> <!-- atributo name, o que vai para o backend -->
+            <input placeholder="Sobrenome" type="text" name="sobrenome"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="password">Senha: </label>
+            <input type="password" name="password"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="date">Seleciona sua data de nascimento: </label>
+            <input type="date" name="date"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="file">Seleciona seu arquivo: </label>
+            <input type="file" name="file"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="Email">Email </label>
+            <input type="email" disabled name="Email"/> <!-- atributo name, o que vai para o backend -->
+        </div>
+        <div>
+            <label for="sexo">Sexo: </label>
+            <input type="radio" name="masculino" value="masculino"/>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="feminino" value="feminino"/>
+            <label for="feminino">Feminino</label>
         </div>
         <div>
             <label for="age">Idade: </label> <!-- for identifica semanticamente o que é, ideal ser sempre igual ao atributo name -->
@@ -54,7 +78,21 @@
             </fieldset>
         </div>
         <div>
-            <input type="submit" value="Enviar" />
+           <label for="flavor">Escolha o sabor: </label>
+           <input type="text" name="flavor" list="flavors">
+           <datalist id="flavors">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Abacaxi"></option>
+           </datalist>
+        </div>
+        <div>
+            <label for="contrato">Aceita os termos do contrato? </label>
+            <input type="checkbox" value="aceita">
+        </div>
+        <div>
+            <input type="submit" value="Enviar" id="enviar"/>
+            <input type="reset" value="Limpar" id="reset"/>
         </div>
     </form>
 </body>
